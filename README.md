@@ -49,6 +49,7 @@ The working mechanism of this notebook is similiar with **150Frames.ipynb** but 
 |:---:|:--------------:|:------------------:|
 |Full Time series|0.343|0.803|
 |1 Frame|0.473|0.571|
+|1 Frame augmented|0.948|0.958|
 |150 Frames|0.44|0.583|
 |150 Frames augmented|0.881|0.804|
 |150 Frames normalized|0.146|0.58|
@@ -57,5 +58,6 @@ The working mechanism of this notebook is similiar with **150Frames.ipynb** but 
 ## Usage Specification
 To reproduce this project code, it is recommended to:
 1. take a look on `Mediapipe.ipynb` which demonstrates how pose landmarks are extracted from the given videos.
-2. `PoseNormalization.ipynb` shows how we normalize the landmark data.
-3. 
+2. `FullTimeseries.ipynb` illustrates how time series features are generated based on the pose landmarks.
+3. `PoseNormalization.ipynb` shows how we normalize the landmark data.
+4. There is no strong dependency order on `150Frames.ipynb` and `1Frame.ipynb`, so please feel free to take a look on these two notebooks.
