@@ -29,12 +29,6 @@ This scripts used [MediaPipe](https://google.github.io/mediapipe/) to extract po
 `FullTimeseries.ipynb`  
 This code uses the previously generated landmarks.json file as input for [tsfresh](https://tsfresh.readthedocs.io/en/latest/) calculation. It outputs time series features in .csv files. However, without data augmentation, the test accuracy is not good.
 
-`PoseNormalization_withoutYN.ipynb`  
-pending  
-
-`PoseNormalizationBis.ipynb`  
-pending  
-
 `PoseNormalization.ipynb`  
 Suggested by Prof. Martin, we normalize the data before putting them into training model. In this notebook, we also make a comparsion between data before augmentation and the data after augmentation by using [Discriminative Guided Warping](https://github.com/uchidalab/time_series_augmentation). It is obvious to see that test accuracy after data augmentation is improved.
 
@@ -49,7 +43,6 @@ The working mechanism of this notebook is similiar with **150Frames.ipynb** but 
 |:---:|:--------------:|:------------------:|
 |Full Time series|0.343|0.803|
 |1 Frame|0.473|0.571|
-|1 Frame augmented|0.948|0.958|
 |150 Frames|0.44|0.583|
 |150 Frames augmented|0.881|0.804|
 |150 Frames normalized|0.146|0.58|
