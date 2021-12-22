@@ -24,7 +24,7 @@ We manually selected videos which can be used for analysis and abandoned those l
 Considering this is a team work, all the codes are written in Google Colab and therefore, they are stored in .ipynb notebook format. It is allowed by the Prof. Martin that we can upload the .ipynb scripts.
 
 `Mediapipe.ipynb`  
-This scripts used [MediaPipe](https://google.github.io/mediapipe/) to extract pose landmark data which will be used for analysis by [tsfresh](https://tsfresh.readthedocs.io/en/latest/).
+This scripts used [MediaPipe](https://google.github.io/mediapipe/) to extract pose landmark data which will be used for analysis by [tsfresh](https://tsfresh.readthedocs.io/en/latest/). For reproducibility purpose, it is worth mentioning that the following 11 videos cannot work correctly on MediaPipe, so we exclude them from our dataset: c35.mp4, c150.mp4, c162.mp4, c322.mp4, c366.mp4, c376.mp4, c378.mp4, c216.mp4, c311.mp4, c313.mp4, c314.mp4.
 
 `FullTimeseries.ipynb`  
 This code uses the previously generated landmarks.json file as input for [tsfresh](https://tsfresh.readthedocs.io/en/latest/) calculation. It outputs time series features in .csv files. However, without data augmentation, the test accuracy is not good.
