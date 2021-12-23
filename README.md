@@ -58,7 +58,8 @@ To reproduce this project code, it is recommended as followed:
 3. Creat a [shortcut](https://support.google.com/drive/answer/9700156?hl=en&co=GENIE.Platform%3DDesktop) of the data-drive to MyDrive. 
 our project in [Google Drive](https://drive.google.com/drive/folders/1bXuYPRGQAE4X9DNayvMkN0cKofJozSAB?usp=sharing) contains all the dataset. 
 
+Now you are able to use the notebooks:
+
 3. Take a look on `Mediapipe.ipynb` which demonstrates how pose landmarks are extracted from the given videos.
-4. `FullTimeseries.ipynb` illustrates how time series features are generated based on the pose landmarks.
-5. `PoseNormalization.ipynb` shows how we normalize the landmark data.
-6. There is no strong dependency order on `150Frames.ipynb` and `1Frame.ipynb`, so please feel free to take a look on these two notebooks.
+4. Use the other Notebooks to extract features, cross validate the models and analyse them.
+   Remark: The features are stored in the data-drive and one must not extract them again. See the remarks in the notebooks.
