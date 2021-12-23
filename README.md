@@ -54,8 +54,8 @@ The working mechanism of this notebook is similiar with **150Frames.ipynb** but 
 ## Usage Specification
 To reproduce this project code, it is recommended as followed:
 1. Clone the notebooks from this github repo and add them to your Google drive
-2. The data is avaible in this [Google Drive](https://drive.google.com/drive/folders/1bXuYPRGQAE4X9DNayvMkN0cKofJozSAB?usp=sharing).
-3. Creat a [shortcut](https://support.google.com/drive/answer/9700156?hl=en&co=GENIE.Platform%3DDesktop) of the data-drive to MyDrive. 
+2. The data is available in this [Google Drive](https://drive.google.com/drive/folders/1bXuYPRGQAE4X9DNayvMkN0cKofJozSAB?usp=sharing).
+3. Create a [shortcut](https://support.google.com/drive/answer/9700156?hl=en&co=GENIE.Platform%3DDesktop) of the data-drive to MyDrive. 
 Our project in [Google Drive](https://drive.google.com/drive/folders/1bXuYPRGQAE4X9DNayvMkN0cKofJozSAB?usp=sharing) contains all the dataset. 
 
 Now you are able to use the notebooks:
