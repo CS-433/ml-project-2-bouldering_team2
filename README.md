@@ -52,9 +52,13 @@ The working mechanism of this notebook is similiar with **150Frames.ipynb** but 
 |150 Frames augmented & normalized| 0.839|0.781|
 
 ## Usage Specification
-To reproduce this project code, our project in [Google Drive](https://drive.google.com/drive/folders/1bXuYPRGQAE4X9DNayvMkN0cKofJozSAB?usp=sharing) contains all the dataset. To run the code, it is recommended as followed:
-1. Clone the notebooks from this github repo, and link the dataset in the notebooks.
-2. Take a look on `Mediapipe.ipynb` which demonstrates how pose landmarks are extracted from the given videos.
-3. `FullTimeseries.ipynb` illustrates how time series features are generated based on the pose landmarks.
-4. `PoseNormalization.ipynb` shows how we normalize the landmark data.
-5. There is no strong dependency order on `150Frames.ipynb` and `1Frame.ipynb`, so please feel free to take a look on these two notebooks.
+To reproduce this project code, it is recommended as followed:
+1. Clone the notebooks from this github repo and add them to your Google drive
+2. The data is avaible in this [Google Drive](https://drive.google.com/drive/folders/1bXuYPRGQAE4X9DNayvMkN0cKofJozSAB?usp=sharing).
+3. Creat a [shortcut](https://support.google.com/drive/answer/9700156?hl=en&co=GENIE.Platform%3DDesktop) of the data-drive to MyDrive. 
+our project in [Google Drive](https://drive.google.com/drive/folders/1bXuYPRGQAE4X9DNayvMkN0cKofJozSAB?usp=sharing) contains all the dataset. 
+
+3. Take a look on `Mediapipe.ipynb` which demonstrates how pose landmarks are extracted from the given videos.
+4. `FullTimeseries.ipynb` illustrates how time series features are generated based on the pose landmarks.
+5. `PoseNormalization.ipynb` shows how we normalize the landmark data.
+6. There is no strong dependency order on `150Frames.ipynb` and `1Frame.ipynb`, so please feel free to take a look on these two notebooks.
